@@ -1,0 +1,146 @@
+	/* * width: 1519px; */
+body{
+    background: url(back3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+#fullBody{	
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    margin: 0;
+}
+#divide{
+    font-size: 22px;
+    margin-top: 15px;
+}
+button{
+    width: 97px;
+    height: 67px;
+    font-size: 22px;
+    margin-top: 4px;
+    font-weight: bold;
+    background-color: wheat;
+    color: black;
+    border: none;
+    margin-left: 0px;
+}
+.btn1{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#container{
+    width: 400px;
+    margin-top: 30px;
+    background: black;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    animation: mybox 0.5s ease-in-out;
+}
+@keyframes mybox {
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+#input1{
+    text-align: right;
+    width: 358px;
+    height: 90px;
+    font-size: 36px;
+    background-color: black;
+    color: white;
+    padding-left: 21px;
+    padding-right: 21px;
+    border: none;
+    font-family: sans-serif;
+}
+#input2{
+    text-align: right;
+    width: 358px;
+    height: 90px;
+    font-size: 36px;
+    background-color: black;
+    color: white;
+    padding-left: 21px;
+    padding-right: 21px;
+    border: none;
+    font-family: sans-serif;
+}
+#result{
+    text-align: right;
+    width: 89.5%;
+    height: 70px;
+    padding-top: 21px;
+    padding-left: 21px;
+    padding-right: 21px;
+    font-size: 36px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+#result-button{
+    background: linear-gradient(0deg, rgb(3, 97, 3), green, rgb(1, 161, 1));
+    color: white;
+}
+#result-button span{
+    font-size: 25px;
+}
+#no-1-nod{
+    background-color: red;
+}
+.sign{
+    background-color: #6b6a6a;
+    border: 1px groove #A9A9A9;
+    color: white;
+}
+.sign-1{
+    margin-left: 0px;
+}
+
+.Layout2{
+    display: flex; 
+    text-align: center; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.hidenseek{
+    display: none !important;
+}
+
+#btn{
+    background-color: #00ff11;
+    width: 100%;
+    margin-left: 0px;
+}
+#heading{
+    color: black;
+    font-family: sans-serif;
+    font-size: 40px;
+    animation: myheading 0.5s ease-in-out;
+}
+@keyframes myheading {
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+#no-2-nod{
+    background-color: red;
+}
